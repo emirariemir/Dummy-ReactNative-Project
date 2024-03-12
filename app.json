@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Grrrreaty",
-    "slug": "Grrrreaty",
+    "slug": "test-project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emirari.testproject"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1612a4df-4ee5-44b8-a523-6c2eee5a0432"
+      }
+    },
+    "owner": "emirari"
   }
 }

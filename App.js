@@ -14,7 +14,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Home" component={Home} options={{ headerShown: false, }} />
-        <Stack.Screen name="Buy Crypto" component={BuyCrypto} />
+        <Stack.Screen name="Buy Crypto" component={BuyCrypto} options={{ headerShown: false, }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
