@@ -135,22 +135,6 @@ styles = StyleSheet.create({
         backgroundColor: colors.background,
     },
 
-    buttonStyleLeft: {
-        flex: 1,
-        marginLeft: 20,
-        marginVertical: 6,
-        borderRadius: 12,
-        backgroundColor: colors.green,
-    },
-
-    buttonStyleRight: {
-        flex: 1,
-        marginLeft: 20,
-        marginVertical: 6,
-        borderRadius: 12,
-        backgroundColor: colors.green,
-    },
-
     addMoney: {
         flex: 1,
         alignItems: 'center',
